@@ -42,8 +42,8 @@ function Highlights() {
             <div className="row">
             {
                 highlights.map((item)=>(
-                    <div className="col-12 col-md-6 col-lg-4">
-                        <div className="highlight-card">
+                    <div className="col-6 col-md-6 col-lg-4 mb-3">
+                        <div className="highlight-card h-100">
                             <div className="h-card-header text-center">
                                 <img src={item.image} alt="" className="" />
                             </div>

@@ -114,11 +114,8 @@ function Registration() {
         
         setReg({ ...reg, [name]: value });
         console.log("a", value)
-       
-        
-
       };
-    
+
       const validateName = (name) => {
         if (name === "") {
           setError(true);
@@ -328,8 +325,8 @@ function Registration() {
            {
         loading ? <LoadingModal/> : null
 }
-       <div className="registration-form-container text-center">
-                <div className="card register-form">
+       <div className="registration-form-container text-center rounded-3">
+                <div className="card register-form rounded-3">
                     <div className="card-header text-start">
                     <h1 className="p-large-xl text-white">Enroll Our <br />MERN Fullstack Development Bootcamp</h1>
             <div className="d-flex align-items-end">

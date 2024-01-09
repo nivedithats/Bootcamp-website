@@ -32,7 +32,17 @@ const allFaqs = {
         "title": "quest6",
         "quest": "What should I do if I encounter technical issues during the Bootcamp?",
         "ans":  "In case of technical difficulties, our support team will be available to assist you. Contact information will be provided during the Bootcamp."
-    }
+    },
+    {
+      "title": "quest7",
+      "quest": "How do I know whether this program is right for me?",
+      "ans":  "After reviewing the information on the program landing page, we recommend you submit the short form above to gain access to the program. If you still have questions on whether this program is a good fit for you, please email admin@be-practical.com, and a dedicated program advisor will follow up with you very shortly."
+  },
+  {
+    "title": "quest7",
+    "quest": "What are the requirements to earn a certificate?",
+    "ans":  "This is a graded program. You must complete a combination of individual assignments, online test, and a final project. Each component carries a certain number of points, and a cumulative score of 60% percent is required to pass and obtain your professional certificate."
+}
 ]
 }
 
@@ -57,7 +67,7 @@ function FAQ() {
                             <div className="accordion-item bg-transparent mt-2 mb-2" key={index}>
                               <div className="accordion-header ">
                                 <div className="accordion-button collapsed  border bg-main mb-1" data-bs-target={`#${item.title}`} data-bs-toggle="collapse">
-                                    <h6 className="text-black"> { item.quest } </h6>
+                                    <h6 className="text-white"> { item.quest } </h6>
                                 </div>
                               </div>
       

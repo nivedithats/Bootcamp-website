@@ -5,7 +5,7 @@ function Certificate() {
   return (
     <section className='container py-4 mt-5' id="certificate">
         <h1 className="text-center text-white mb-5">
-                   MERN Fullstack Development Bootcamp <span className="text-main">Certification</span>
+        Get a certificate of completion on an <br /> Intensive Bootcamp from <span className="text-main">Be-practical</span>
                 </h1>
         <div className="row">
             <div className="col-12 col-md-12 col-lg-6">

@@ -33,5 +33,28 @@
 .bar{
     height: 30px;
     width: 100%;
-    background: linear-gradient(45deg, #ffe2e2, #ffb6fd);
+    background: linear-gradient(45deg, #f4edf8, #FFEEEE);
+}
+.module{
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #6867675e;
+    background:linear-gradient(45deg, #1e2220, #494949);
+    color: #fff;
+
+}
+.module ul li::marker{
+    content: "✅";
+}
+.module ul li{
+    margin-bottom: 20px;
+}
+.m-tag{
+    padding: 10px;
+    background-color: #EBD8C3;
+    border-radius: 100px;
+    width: fit-content;
+    color: #000;
+    min-width: 100px;
+    text-align: center;
 }

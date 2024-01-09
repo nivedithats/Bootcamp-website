@@ -13,8 +13,21 @@
             "works":"Attend our Bootcamp conveniently from your own home"
         },
         {
-            "works":"Interact with seasoned industry professionals and fellow enthusiasts for an interactive learning experience"
+            "works":"Build, test, and deploy a web application using the MERN stack"
         },
+        {
+            "works":"Build, test using POSTMAN, and deploy APIs in Real Time Server"
+        },
+        {
+            "works":"Build, test, and deploy a front-end web application using React"
+        },
+        {
+            "works":"Setup Continuous Integration (CI) and Continuous Delivery (CD) pipelines to deploy a React application using GitHub."
+        },
+        {
+            "works":"Present a GitHub portfolio of your work to potential employers"
+        },
+
         {
             "works":"We offer E-certificates upon completion of the Bootcamp and provide study materials"
         }
