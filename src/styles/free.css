@@ -1,0 +1,12 @@
+.free{
+    min-height: 100vh;
+    background: linear-gradient(315deg, #fc0352, #8400ff);
+}
+.thanks{
+padding: 20px;
+background: #fff;
+border-radius: 10px;
+}
+.thanks img{
+    animation: anim 1s ease-in-out infinite alternate;
+}

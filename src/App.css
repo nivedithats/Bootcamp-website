@@ -1,0 +1,135 @@
+:root{
+  --green-color:#FFB6B6;
+  --black-color:#1a1a1a;
+  --dark-blue:#222222;
+  --dark-green:#395c51;
+
+}
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-main{
+  color: var(--green-color);
+}
+.bg-main{
+  background: var(--green-color) !important;
+}
+.heading-text{
+  font-size: 3.5rem;
+}
+.heading-subtitle{
+  font-size: 2.5rem;
+}
+.heading-small{
+  font-size: 2rem;
+}
+.p-large-xl{
+  font-size: 1.5rem;
+}
+.p-large{
+  font-size: 1.1rem;
+}
+.p-small{
+  font-size: 0.9rem;
+}
+.text-900{
+  font-weight: 900;
+}
+.text-700{
+  font-weight: 700;
+}
+.main-btn{
+  border: none;
+  background-color: var(--green-color);
+  padding: 15px;
+  font-size: 1.3rem;
+  color: var(--black-color);
+  border-radius: 10px;
+}
+.div-block-876 {
+  height: 38px;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  background-color: rgba(230, 103, 239, 0.2);
+  border: 1px solid rgba(221, 103, 239, 0.2);
+  border-radius: 8px;
+  align-items: center;
+  padding: 8px 12px;
+  display: flex;
+  color: #fff;
+}
+@media (max-width:600px){
+  .registration{
+    margin-top: 20px;
+  }
+  .heading-text{
+    font-size: 2.5rem;
+  }
+  .heading-subtitle{
+    font-size: 2rem;
+  }
+  .heading-small{
+    font-size: 1.8rem;
+  }
+  .p-large-xl{
+    font-size: 1.5rem;
+  }
+  .p-large{
+    font-size: 1.1rem;
+  }
+  .p-small{
+    font-size: 0.9rem;
+  }
+  .text-900{
+    font-weight: 900;
+  }
+  .text-700{
+    font-weight: 700;
+  }
+  .main-btn{
+    font-size: 1.1rem;
+  }
+
+}
+
+/* loading modal */
+.loading-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loading-spinner {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.cerificate{
+  border: 5px solid var(--green-color);
+  padding: 10px;
+}
+.modal{
+  backdrop-filter: blur(10px);
+}
+.modal-body img{
+  width: 200px;
+  height: 200px;
+  animation: anim 1s ease-in-out infinite alternate;
+}
+@keyframes anim{
+  from{
+      transform: scale(0.9);
+  }
+  to{
+      transform: scale(1.1);
+  }
+}
