@@ -1,36 +1,33 @@
 {
     "working":[
+         {
+        "works":"Collect, Clean, Analyze  the dataset using the Python libraries"
+    },
+    {
+        "works":"Load data, Clean using Pandas, and Visualize using matplotlib & seaborn          "
+    },
+    {
+        "works":"Load and apply Feature Engineering to the data using Scikit-Learn"
+    },
+    {
+        "works":"Select the machine Learning algorithm to build the model            "
+    },
+    {
+        "works":"Testing the data and doing the Predictions."
+    },
         {
-            "works":"Acquire valuable, hands-on insights to launch your MERN fullstack development career effectively"
+            "works":"Acquire valuable, hands-on insights to launch your Data Science  career effectively"
         },
         {
             "works":"Get your burning questions answered by industry experts in real time"
         },
         {
-            "works":"Learn from experts about the current job market's robust demand for careers in MERN Fullstack Development"
+            "works":"Learn from experts about the current job market's robust demand for careers in Data Science "
         },
         {
             "works":"Attend our Bootcamp conveniently from your own home"
-        },
-        {
-            "works":"Build, test, and deploy a web application using the MERN stack"
-        },
-        {
-            "works":"Build, test using POSTMAN, and deploy APIs in Real Time Server"
-        },
-        {
-            "works":"Build, test, and deploy a front-end web application using React"
-        },
-        {
-            "works":"Setup Continuous Integration (CI) and Continuous Delivery (CD) pipelines to deploy a React application using GitHub."
-        },
-        {
-            "works":"Present a GitHub portfolio of your work to potential employers"
-        },
-
-        {
-            "works":"We offer E-certificates upon completion of the Bootcamp and provide study materials"
         }
+       
 
     ]
 }

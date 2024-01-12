@@ -27,7 +27,7 @@ const LoadingModal = () => {
           <div className="modal-dialog ">
             <div className="modal-content bg-black">
               <div className="modal-header">
-                <h5 className="modal-title text-main">MERN Fullstack Developmmnt Bootcamp</h5>
+                <h5 className="modal-title text-main">Data Science Developmmnt Bootcamp</h5>
                 <button type="button" className="close btn" onClick={onClose}>
                   <span className='fs-1 text-white'>&times;</span>
                 </button>
@@ -35,7 +35,7 @@ const LoadingModal = () => {
               <div className="modal-body">
               <img src="https://static-00.iconduck.com/assets.00/success-icon-512x512-qdg1isa0.png" alt="success" />
               <p className='fs-4 text-white mt-4'>
-                <b className='text-main'>Congratulations! </b>You are eligible for free registration to our MERN Fullstack Development Bootcamp.
+                <b className='text-main'>Congratulations! </b>You are eligible for free registration to our Data Science  Bootcamp.
               </p>
              
                </div>
@@ -208,7 +208,7 @@ function Registration() {
               axios.post('https://dull-trousers-deer.cyclic.app/api/users/register', reg)
               .then(response => {
                 // Handle the response data here
-                toast.success("Thank you for registering to MERN fullstack development Bootcamp")
+                toast.success("Thank you for registering to Data Science  Bootcamp")
                 setShowModal(true)
                 console.log(response);
               })
@@ -328,7 +328,7 @@ function Registration() {
        <div className="registration-form-container text-center rounded-3">
                 <div className="card register-form rounded-3">
                     <div className="card-header text-start">
-                    <h1 className="p-large-xl text-white">Enroll Our <br />MERN Fullstack Development Bootcamp</h1>
+                    <h1 className="p-large-xl text-white">Enroll Our <br />Data Science  Bootcamp</h1>
             <div className="d-flex align-items-end">
             <h1 className="heading-text text-main mx-2">Free</h1>
             <h1 className="heading-subtitle text-white"><del className='text-danger'>&#8377;1000</del></h1>
@@ -371,7 +371,7 @@ function Registration() {
                                {
                                 freeCoupon ? (
                                    <div class="alert alert-success mt-4" role="alert">
-                                     Congratulations! You are eligible for free registration to our MERN fullstack development Bootcamp. <i class="bi bi-arrow-right"></i>
+                                     Congratulations! You are eligible for free registration to our Data Science  Bootcamp. <i class="bi bi-arrow-right"></i>
                                   </div>
                                  
                                 ):(

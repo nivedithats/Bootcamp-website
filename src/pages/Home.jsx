@@ -18,7 +18,7 @@ function Home() {
       <Highlights/>
       <Enroll/>
       <Certificate/>
-      <About/>    
+      {/* <About/>     */}
       
       <Enroll/>
       <FAQ/>

@@ -5,18 +5,18 @@ function Header() {
   return (
     <header className='bg-dark'>
       <marquee behavior="scroll" direction="right" scrollamount="10" className="m-0 bg-main">
-        <div className="free-container d-flex gap-5 fs-5 m-0 fw-bold">
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
-          <span>Free MERN Fullstack developemnt Bootcamp</span>
+        <div className="free-container d-flex gap-5 fs-5 m-0 fw-bold  text-white">
+          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science developemnt Bootcamp</span>
          
         </div>
       </marquee>
