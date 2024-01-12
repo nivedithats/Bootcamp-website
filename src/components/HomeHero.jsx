@@ -7,8 +7,8 @@ import Works from './Works'
 function HomeHero() {
   return (
     <section className='hero text-center p-lg-4 p-2' id='home'>
-      <div className="blur1"></div>
-      <div className="blur2"></div>
+      <div className="blur1 d-none d-sm-none d-md-block"></div>
+      <div className="blur2 d-none d-sm-none d-md-block"></div>
     
           <p className='p-2 text-black bg-white rounded-5 mb-3 mt-3'>Data Science  Bootcamp</p>
         <h1 className="heading-text  text-white mt-3 text-900 py-2">Secret Blueprint for  High-Paid <span className="text-main">Data Science career</span></h1>
