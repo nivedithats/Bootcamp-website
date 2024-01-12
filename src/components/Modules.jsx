@@ -19,7 +19,7 @@ const moduledata = [
 function Modules() {
   return (
    <div className='module-container'>
-    <h1 className="fs-1 text-white text-center mt-5">What you can expect in <span className="text-main">3 days</span>?</h1>
+    <h1 className="fs-1 text-white text-center mt-5">What you can expect in <span className="text-main">2 days</span>?</h1>
     <p className="fs-6 text-center text-white px-4">
     This program is organized into three main modules using Data Science:      Understanding business requirements, Data processing, and Model building. Each module builds on the next, and is designed to prepare you to enter the job market as an entry-level data scientist, or to specialize in one of these areas with further skill .
     </p>
