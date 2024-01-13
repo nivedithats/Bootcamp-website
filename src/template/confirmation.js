@@ -54,16 +54,16 @@ const UserEmail = (name) => {
     <body>
         <div class="header">
             <img src="https://res.cloudinary.com/dfogisedz/image/upload/v1696400519/webinar/wuxjubwtp8csymfqv28t.png" alt="" class="logo">
-            <h1>Thanks for Registering Java fullstack development workshop</h1>
+            <h1>Thanks for Registering Data Science workshop</h1>
           
             
         </div>
         <div class="body" style="padding: 50px 10px;">
             <h2 style="margin-bottom: 20px;">Here is What you will Learn over 8 Hours</h2>
            <ul>
-            <li>Blue print for High-paid Java fullstack development  Career.</li>
+            <li>Blue print for High-paid Data Science  Career.</li>
             <li>Live Q&A Session With Experts.</li>
-            <li>Get Java fullstack development  Career Industry Demands.</li>
+            <li>Get Data Science  Career Industry Demands.</li>
             <li>Get E-certificate and Study Material.</li>
             </ul>
         </div>
