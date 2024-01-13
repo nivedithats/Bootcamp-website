@@ -59,7 +59,7 @@ const UserEmail = (name) => {
             
         </div>
         <div class="body" style="padding: 50px 10px;">
-            <h2 style="margin-bottom: 20px;">Here is What you will Learn over 8 Hours</h2>
+            <h2 style="margin-bottom: 20px;">Here is What you will Learn over 4 Hours</h2>
            <ul>
             <li>Blue print for High-paid Data Science  Career.</li>
             <li>Live Q&A Session With Experts.</li>
