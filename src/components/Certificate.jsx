@@ -17,11 +17,11 @@ function Certificate() {
                     </h1>
                 <p className='text-white p-large'>
                     
-                This certificate is awarded in recognition of the participant's active engagement, dedication, and successful completion of the Data Science developemnt Bootcamp. Throughout the Bootcamp, participants gained valuable knowledge and hands-on experience in the field of Data Science.
+                This certificate is awarded in recognition of the participant's active engagement, dedication, and successful completion of the Data Science  Bootcamp. Throughout the Bootcamp, participants gained valuable knowledge and hands-on experience in the field of Data Science.
                 </p>
-                <h1 className='p-large-xl text-900 text-main mb-3'>Data Science developemnt Bootcamp:</h1>
+                <h1 className='p-large-xl text-900 text-main mb-3'>Data Science  Bootcamp:</h1>
                 <p className="p-large text-white">
-                The Bootcamp was conducted on  22<sup>nd</sup>-23 <sup>rd</sup> jan 2024, and its duration spanned  Day1 2Hours and day2 2Hours total 4 Hours Bootcamp, ensuring participants had ample time to acquire the skills and knowledge necessary to excel in the field of Data Science Developemnt.
+                The Bootcamp was conducted on  22<sup>nd</sup>-23 <sup>rd</sup> jan 2024, and its duration spanned  Day1 2Hours and day2 2Hours total 4 Hours Bootcamp, ensuring participants had ample time to acquire the skills and knowledge necessary to excel in the field of Data Science .
                 </p>
             </div>
         </div>

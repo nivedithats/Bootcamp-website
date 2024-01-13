@@ -13,7 +13,7 @@ const moduledata = [
         tag:"day2",
         heading:" Model Building using ML",
         description:"You will work with Pandas and Scikit-Learn to become confident in Data Science. You will learn the essentials for working with the data, ML Algorithms & Model Optimization for a solid foundation in Data Science.        ",
-        topicCovered:["ML Algorithms", "Model Optimization", "automation", "cloud"]
+        topicCovered:["ML Algorithms", "Model Optimization", "prediction"]
     },
 ]
 function Modules() {

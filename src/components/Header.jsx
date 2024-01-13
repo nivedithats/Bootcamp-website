@@ -6,17 +6,17 @@ function Header() {
     <header className='bg-dark'>
       <marquee behavior="scroll" direction="right" scrollamount="10" className="m-0 bg-main">
         <div className="free-container d-flex gap-5 fs-5 m-0 fw-bold  text-white">
-          <span>Free Data Science developemnt Bootcamp</span>
-          <span>Free Data Science developemnt Bootcamp</span>
-          <span>Free Data Science developemnt Bootcamp</span>
-          <span>Free Data Science developemnt Bootcamp</span>
-          <span>Free Data Science developemnt Bootcamp</span>
-          <span>Free Data Science developemnt Bootcamp</span>
-          <span>Free Data Science developemnt Bootcamp</span>
-          <span>Free Data Science developemnt Bootcamp</span>
-          <span>Free Data Science developemnt Bootcamp</span>
-          <span>Free Data Science developemnt Bootcamp</span>
-          <span>Free Data Science developemnt Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
+          <span>Free Data Science  Bootcamp</span>
          
         </div>
       </marquee>

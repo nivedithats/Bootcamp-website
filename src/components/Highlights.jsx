@@ -15,7 +15,7 @@ const highlights = [
     {
         image:"https://cdn-icons-png.flaticon.com/128/9464/9464456.png",
         title:"Industry Demand",
-        content:"Learn from experts about the current job market's robust demand for careers in Data Science developemnt"
+        content:"Learn from experts about the current job market's robust demand for careers in Data Science "
     },
     {
         image:"https://cdn-icons-png.flaticon.com/128/11060/11060995.png",
