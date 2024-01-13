@@ -32,7 +32,7 @@ const LoadingModal = () => {
                   <span className='fs-1 text-white'>&times;</span>
                 </button>
               </div>
-              <div className="modal-body">
+              <div className="modal-body d-flex align-items-center justify-content-center flex-column gap-3">
               <img src="https://static-00.iconduck.com/assets.00/success-icon-512x512-qdg1isa0.png" alt="success" />
               <p className='fs-4 text-white mt-4'>
                 <b className='text-main'>Congratulations! </b>You are eligible for free registration to our Data Science  Bootcamp.
@@ -205,7 +205,7 @@ function Registration() {
           //   return;
           // }
           try {
-              axios.post('https://dull-trousers-deer.cyclic.app/api/users/register', reg)
+              axios.post('https://dull-trousers-deer.cyclic.app/api/datascience/register', reg)
               .then(response => {
                 // Handle the response data here
                 toast.success("Thank you for registering to Data Science  Bootcamp")
