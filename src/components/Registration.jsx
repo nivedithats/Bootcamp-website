@@ -36,7 +36,7 @@ const LoadingModal = () => {
               <div className="modal-body d-flex align-items-center justify-content-center flex-column gap-3">
               <img src="https://static.vecteezy.com/system/resources/thumbnails/018/930/746/small/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.png" alt="success" />
               <p className='fs-4 text-white mt-4'>
-             New Message to Confirm
+             New Message to Confirm.
               </p>
               <p className='fs-5 text-white'>
               Confirm Here For free Data Science Bootcamp
