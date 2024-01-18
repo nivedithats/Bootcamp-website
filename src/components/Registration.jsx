@@ -6,6 +6,7 @@ import Email from '../template/email';
 import UserEmail from '../template/confirmation';
 import InfluenceEmail from '../template/influence';
 import { toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
 const URL = "https://email-api-r1kd.onrender.com"
 
 
@@ -27,16 +28,20 @@ const LoadingModal = () => {
           <div className="modal-dialog ">
             <div className="modal-content bg-black">
               <div className="modal-header">
-                <h5 className="modal-title text-main">Data Science Developmmnt Bootcamp</h5>
+                <h5 className="modal-title text-success">Confirmation</h5>
                 <button type="button" className="close btn" onClick={onClose}>
                   <span className='fs-1 text-white'>&times;</span>
                 </button>
               </div>
               <div className="modal-body d-flex align-items-center justify-content-center flex-column gap-3">
-              <img src="https://static-00.iconduck.com/assets.00/success-icon-512x512-qdg1isa0.png" alt="success" />
+              <img src="https://static.vecteezy.com/system/resources/thumbnails/018/930/746/small/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.png" alt="success" />
               <p className='fs-4 text-white mt-4'>
-                <b className='text-main'>Congratulations! </b>You are eligible for free registration to our Data Science  Bootcamp.
+             New Message to Confirm
               </p>
+              <p className='fs-5 text-white'>
+              Confirm Here For free Data Science Bootcamp
+              </p>
+              <Link to="https://chat.whatsapp.com/INg6WosbQBx4svP30iESFM" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
              
                </div>
            

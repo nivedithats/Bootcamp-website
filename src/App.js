@@ -6,16 +6,19 @@ import Header from './components/Header';
 import { ToastContainer } from 'react-toastify';
 import FreeRegistration from './components/FreeRegistration';
 import Scroll from './components/Scroll';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       {/* <Scroll/> */}
-      <Header/>
+     <BrowserRouter>
+     <Header/>
       <ToastContainer autoClose={4000} position='top-right' />
       <Home/>
       {/* <FreeRegistration/> */}
       <Footer/>
+     </BrowserRouter>
 
     </div>
   );
