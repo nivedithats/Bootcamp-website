@@ -1,9 +1,8 @@
 :root{
-  --green-color:#7E30E1;
+  --green-color:#fff479;
   --black-color:#1a1a1a;
   --dark-blue:#222222;
   --dark-green:#395c51
-
 }
 *{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -43,15 +42,15 @@
   background-color: var(--green-color);
   padding: 15px;
   font-size: 1.3rem;
-  color: #fff;
+  color: #080808;
   border-radius: 10px;
 }
 .div-block-876 {
   min-height: 50px;
   grid-column-gap: 12px;
   grid-row-gap: 12px;
-  background-color: rgba(218, 195, 250, 0.138);
-  border: 1px solid rgba(211, 188, 255, 0.2);
+  background-color: #f8f8391b;
+  border: 1px solid #f8f839;
   border-radius: 8px;
   align-items: center;
   padding: 8px 12px;

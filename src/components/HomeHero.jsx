@@ -10,11 +10,11 @@ function HomeHero() {
       <div className="blur1 d-none d-sm-none d-md-block"></div>
       <div className="blur2 d-none d-sm-none d-md-block"></div>
     
-          <p className='p-2 text-black bg-white rounded-5 mb-3 mt-3'>Data Science  Bootcamp</p>
-        <h1 className="heading-text  text-white mt-3 text-900 py-2">Secret Blueprint for  High-Paid <span className="text-main">Data Science career</span></h1>
-        <div className="p-large text-white">Live Q&A Session With Experts, <br />Get Easiest Part To Learn complete Data Science,  Get E-Certificate and Study Meterial</div>
+          <p className='p-2 text-black bg-white rounded-5 mb-3 mt-3'>Python  Bootcamp</p>
+        <h1 className="heading-text  text-white mt-3 text-900 py-2">Secret Blueprint for  High-Paid <span className="text-main">Python career</span></h1>
+        <div className="p-large text-white">Live Q&A Session With Experts, <br />Get Easiest Part To Learn complete Python,  Get E-Certificate and Study Meterial</div>
         <div className="date-container mt-5">
-            <button className="div-block-876"> <i class="bi bi-calendar2-event"></i>22nd - 23rd Jan 2024 </button>
+            <button className="div-block-876"> <i class="bi bi-calendar2-event"></i>7th - 8th Feb 2024 </button>
             <button className="div-block-876"> <i class="bi bi-alarm"></i> 7:30PM to 9:30PM</button>
         </div>
         <div className='container mt-5 text-start'>

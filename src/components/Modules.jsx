@@ -5,23 +5,23 @@ import '../styles/Homehero.css'
 const moduledata = [
     {
         tag:"day1",
-        heading:" Data Analytics",
-        description:"You will develop foundational skills in Data Science using Python, NumPy, and Pandas. You’ll understand the business domain and their requirements by analyzing the data which you will add to as you progress through the program.        ",
-        topicCovered:["Python", "NumPy", "Pandas"]
+        heading:"Python Bootcamp Day1",
+        description:"You will learn some fundamentals required for solving coding challenges.Learn how to use libraries. Solve questions by importing required libraries and its packages. Lambda functions are powerful tools in Python, but they come with their own strengths and weaknesses. ",
+        topicCovered:["Lambda Functions", "Understanding Packages and libraries ", "Introduction to Python fundamentals"]
     },
     {
         tag:"day2",
         heading:" Model Building using ML",
-        description:"You will work with Pandas and Scikit-Learn to become confident in Data Science. You will learn the essentials for working with the data, ML Algorithms & Model Optimization for a solid foundation in Data Science.        ",
-        topicCovered:["ML Algorithms", "Model Optimization", "prediction"]
+        description:"Understanding powerful and versatile GUI toolkit that can be used to create a wide variety of applications, from simple scripts to complex desktop applications.Functions eliminate the need to write the same block of code repeatedly. You define it once and can call it whenever needed, making your code cleaner and more efficient.",
+        topicCovered:[" Use of Tkinter ", "Functions and its Use"]
     },
 ]
 function Modules() {
   return (
    <div className='module-container'>
     <h1 className="fs-1 text-white text-center mt-5">What you can expect in <span className="text-main">2 days</span>?</h1>
-    <p className="fs-6 text-center text-white px-4">
-    This program is organized into three main modules using Data Science:      Understanding business requirements, Data processing, and Model building. Each module builds on the next, and is designed to prepare you to enter the job market as an entry-level data scientist, or to specialize in one of these areas with further skill .
+    <p className="text-center text-white px-4 lead">
+    The program is organized into two module using Python. First module will make to work on basic requirement, how to analyze your code in term of time complexity and how Lambda functions helps to solve coding problems. Second module will let you to understand underlying concepts of Tkinter, functions. Each module builds on the next, and is designed to enter the job market as a developer.
     </p>
   <div className="conatiner p-3">
     <div className="row align-items-center">
@@ -31,7 +31,7 @@ function Modules() {
             <div className="module p-3 h-100">
             <h4 className="m-tag fs-6 p-1">{item.tag}</h4>
         <h1 className="fs-4 text-main">{item.heading}</h1>
-        <p className="fs-6">{item.description}</p>
+        <p className=" lead">{item.description}</p>
         
         <h4 className="fs-4 text-main">Topics Covered</h4>
         <hr />

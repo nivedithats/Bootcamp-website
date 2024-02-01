@@ -5,38 +5,38 @@ const allFaqs = {
   "faq": [
     {
         "title": "quest1",
-        "quest": "How do I know whether this program is right for me?        ",
-        "ans":  "After reviewing the information on the program landing page, we recommend you submit the short form above to gain access to the program. If you still have questions on whether this program is a good fit for you, please email admin@be-practical.com, and a dedicated program advisor will follow up with you very shortly.        "
+        "quest": "Why do we need to learn Python?",
+        "ans":  "Learning Python offers a treasure trove of benefits, making it a valuable skill for various individuals and career paths "
     },
     {
         "title": "quest2",
-        "quest": "What are the requirements to earn a certificate?        ",
-        "ans":  "This is a graded program. You must complete a combination of individual assignments, online tests, and a final project. Each component carries a certain number of points, and a cumulative score of 60% percent is required to pass and obtain your professional certificate."
+        "quest": "Are there any prerequisites for this program?",
+        "ans":  "No, we will explain everything required from scratch level.1.	Good to have basics of computer knowledge 2.	Good to have knowledge on some IDE’s "
     },
     {
         "title": "quest3",
-        "quest": "Can I download the program videos?        ",
-        "ans":  "You can download video transcripts, assignment templates, readings, at the end of the workshop. However, the video lectures are only available for streaming and require an internet connection.        "
+        "quest": "Why ",
+        "ans":  "This is a graded program. You must complete a combination of individual assignments, online test, and a final project. Each component carries a certain number of points, and a cumulative score of 60% percent is required to pass and obtain your professional certificate.	"
     },
     {
         "title": "quest4",
-        "quest": "What type of certificate will I receive?",
-        "ans":  "The digital certificate will be sent after the program, once grading is complete        "
+        "quest": "Can I download the program videos?",
+        "ans":  "You can download video transcripts, assignment templates, readings, at the end of the workshop. However, the video lectures are only available for streaming and require an internet connection."
     },
     {
         "title": "quest5",
-        "quest": "Can I get the hard copy of the certificate?        ",
-        "ans":  "No, only verified digital certificates will be issued upon successful completion. This allows you to share your credentials on social platforms such as LinkedIn, Facebook, and Twitter.        "
+        "quest": "What type of certificate will I receive?",
+        "ans":  "The digital certificate will be sent after the program, once grading is complete. "
     },
     {
         "title": "quest6",
-        "quest": "Do I receive alumni status after completing this program?        ",
-        "ans":  "No, there is no alumni status granted for this program. In some cases, there are credits that count toward a higher level of certification. We provide alumni status for those who joined for a full time program.        ."
+        "quest": "Can I get the hard copy of the certificate?",
+        "ans":  "No, only verified digital certificates will be issued upon successful completion. This allows you to share your credentials on social platforms such as LinkedIn, Facebook, and Twitter."
     },
     {
       "title": "quest7",
-      "quest": "How long will I have access to the learning materials?      ",
-      "ans":  "You will have access to the learning platform and all program materials (videos excluded) for 3 months following the program end date. Access to the learning platform is restricted to registered participants per the terms of agreement will be forwarded through mail.      "
+      "quest": "Do I receive alumni status after completing this program?",
+      "ans":  "No, there is no alumni status granted for this program. In some cases, there are credits that count toward a higher level of certification. We provide alumni status for those who joined for full time program.  "
   }
 ]
 }
@@ -61,8 +61,8 @@ function FAQ() {
                           return (
                             <div className="accordion-item bg-transparent mt-2 mb-2" key={index}>
                               <div className="accordion-header ">
-                                <div className="accordion-button collapsed  border bg-main mb-1" data-bs-target={`#${item.title}`} data-bs-toggle="collapse">
-                                    <h6 className="text-white"> { item.quest } </h6>
+                                <div className="accordion-button collapsed text-dark  border bg-main mb-1" data-bs-target={`#${item.title}`} data-bs-toggle="collapse">
+                                    <h6 className="text-dark"> { item.quest } </h6>
                                 </div>
                               </div>
       

@@ -54,16 +54,16 @@ const UserEmail = (name) => {
     <body>
         <div class="header">
             <img src="https://res.cloudinary.com/dfogisedz/image/upload/v1696400519/webinar/wuxjubwtp8csymfqv28t.png" alt="" class="logo">
-            <h1>Thanks for Registering Data Science workshop</h1>
+            <h1>Thanks for Registering Python workshop</h1>
           
             
         </div>
         <div class="body" style="padding: 50px 10px;">
             <h2 style="margin-bottom: 20px;">Here is What you will Learn over 4 Hours</h2>
            <ul>
-            <li>Blue print for High-paid Data Science  Career.</li>
+            <li>Blue print for High-paid Python  Career.</li>
             <li>Live Q&A Session With Experts.</li>
-            <li>Get Data Science  Career Industry Demands.</li>
+            <li>Get Python  Career Industry Demands.</li>
             <li>Get E-certificate and Study Material.</li>
             </ul>
         </div>

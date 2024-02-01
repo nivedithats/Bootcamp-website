@@ -20,7 +20,7 @@
 .blur1{
     width: 200px;
     height: 200px;
-    background: radial-gradient(#5a01a8, #894ecc);
+    background: radial-gradient(#f8f839, #f8f839);
     filter: blur(90px);
     position: absolute;
     top: 20px;
@@ -29,7 +29,7 @@
 .blur2{
     width: 200px;
     height: 200px;
-    background: radial-gradient(#5a01a8, #894ecc);
+    background: radial-gradient(#f8f839, #f8f839);
     filter: blur(100px);
     position: absolute;
     top: 20px;
