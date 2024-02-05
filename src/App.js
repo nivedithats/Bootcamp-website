@@ -12,21 +12,21 @@ import { useEffect } from 'react';
 ReactGA.initialize('G-5Y76GH1KTX');
 
 function App() {
-  useEffect (() => {
-    console.log('Tracking pageview...');
+  const location = useLocation();
+  useEffect(() => {
     // Extract UTM parameters from the URL
-    const urlParams = new URLSearchParams(window.location.search);
+    const urlParams = new URLSearchParams(location.search);
     const utmSource = urlParams.get('utm_source');
     const utmMedium = urlParams.get('utm_medium');
     const utmCampaign = urlParams.get('utm_campaign');
 
-    // Track pageview with UTM parameters
-    ReactGA.pageview(window.location.pathname + window.location.search, [], {
-      utm_source: utmSource,
-      utm_medium: utmMedium,
-      utm_campaign: utmCampaign,
+    // Track the user's source in Google Analytics
+    ReactGA.event({
+      category: 'User Interaction',
+      action: 'Visited Website',
+      label: `Source: ${utmSource}, Medium: ${utmMedium}, Campaign: ${utmCampaign}`,
     });
-  }, []);
+  }, [location.search]);
   return (
     <div className="App">
       {/* <Scroll/> */}
