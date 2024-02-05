@@ -4,13 +4,13 @@ import '../styles/Homehero.css'
 
 const moduledata = [
     {
-        tag:"day1",
+        tag:"Day1",
         heading:"Python Bootcamp Day1",
         description:"You will learn some fundamentals required for solving coding challenges.Learn how to use libraries. Solve questions by importing required libraries and its packages. Lambda functions are powerful tools in Python, but they come with their own strengths and weaknesses. ",
         topicCovered:["Lambda Functions", "Understanding Packages and libraries ", "Introduction to Python fundamentals"]
     },
     {
-        tag:"day2",
+        tag:"Day2",
         heading:" Model Building using ML",
         description:"Understanding powerful and versatile GUI toolkit that can be used to create a wide variety of applications, from simple scripts to complex desktop applications.Functions eliminate the need to write the same block of code repeatedly. You define it once and can call it whenever needed, making your code cleaner and more efficient.",
         topicCovered:[" Use of Tkinter ", "Functions and its Use"]
