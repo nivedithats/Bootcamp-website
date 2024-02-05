@@ -13,6 +13,7 @@ ReactGA.initialize('G-5Y76GH1KTX');
 
 function App() {
   useEffect (() => {
+    console.log('Tracking pageview...');
     // Extract UTM parameters from the URL
     const urlParams = new URLSearchParams(window.location.search);
     const utmSource = urlParams.get('utm_source');
