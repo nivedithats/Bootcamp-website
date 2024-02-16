@@ -40,9 +40,9 @@ const LoadingModal = () => {
              New Message to Confirm.
               </p>
               <p className='fs-5 text-white'>
-              Confirm Here For free Python Bootcamp
+              Confirm Here For free MERN Fullstack Development Bootcamp
               </p>
-              <Link to="https://chat.whatsapp.com/LUZQkPEHgyy3iqD2IpwE87" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
+              <Link to="https://chat.whatsapp.com/CmR48GWC2N4AnSjmr57mzD" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
                </div>
             </div>
           </div>
@@ -69,11 +69,15 @@ function Registration() {
           console.error('Error fetching influencers:', error);
         });
     }, []);
+    useEffect(()=>{
+      axios.get('')
+    },[])
     const [reg, setReg] = useState({
         name: "",
         email: "",
         mobile: "",
-        coupon: "",
+        college: "",
+        year:""
       });
       if(reg.coupon===null){
         setIsCoupon(false)
@@ -171,30 +175,30 @@ function Registration() {
         }
       };
     
-      const sendEmail = async (name, email, mobile, coupon, influencer ) => {
-        try {
-          let data = Email(name, email, mobile, coupon, influencer);
-          let to = "admin@be-practical.com";
-          let sub = "Bootcamp Registration details";
+      // const sendEmail = async (name, email, mobile, coupon, influencer ) => {
+      //   try {
+      //     let data = Email(name, email, mobile, coupon, influencer);
+      //     let to = "admin@be-practical.com";
+      //     let sub = "Bootcamp Registration details";
     
-          let final = {
-            to,
-            subject: sub,
-            content: data,
-          };
+      //     let final = {
+      //       to,
+      //       subject: sub,
+      //       content: data,
+      //     };
     
-          setLoading(true);
+      //     setLoading(true);
     
-          await axios
-            .post(`${URL}/api/send/mail`, final)
-            .then((res) => {
+      //     await axios
+      //       .post(`${URL}/api/send/mail`, final)
+      //       .then((res) => {
             
-            })
-            .catch((err) => toast.error(err.message));
-        } catch (err) {
-          console.log(err.message);
-        }
-      };
+      //       })
+      //       .catch((err) => toast.error(err.message));
+      //   } catch (err) {
+      //     console.log(err.message);
+      //   }
+      // };
     
       // const checkCouponCode = (couponCode) => {
       //   const influencer = influencers.find((i) => i.couponCode === couponCode);
@@ -209,10 +213,10 @@ function Registration() {
           //   return;
           // }
           try {
-              axios.post('https://stormy-flannel-nightgown-ox.cyclic.app/api/python/register', reg)
+              axios.post('https://stormy-flannel-nightgown-ox.cyclic.app/api/aws/register', reg)
               .then(response => {
                 // Handle the response data here
-                toast.success("Thank you for registering to Python  Bootcamp")
+                toast.success("Thank you for registering to AWS Bootcamp")
                 setShowModal(true)
                 console.log(response);
               })
@@ -227,101 +231,101 @@ function Registration() {
             toast.error('An error occurred while creating the influencer. Please try again.');
           }
       
-          if (err) {
-              toast.error("Check your Details..");
-          } else {
-              // Check if the entered coupon code matches an influencer's coupon code
-              // const influencer = influencers.find((i) => i.couponCode === reg.coupon);
-              // console.log("Coupon Code:", reg.coupon);
-              // console.log("Influencer Object:", influencer);
+          // if (err) {
+          //     toast.error("Check your Details..");
+          // } else {
+          //     // Check if the entered coupon code matches an influencer's coupon code
+          //     // const influencer = influencers.find((i) => i.couponCode === reg.coupon);
+          //     // console.log("Coupon Code:", reg.coupon);
+          //     // console.log("Influencer Object:", influencer);
   
-              // if (influencer) {
-              //     sendEmail(reg.name, reg.email, reg.mobile, reg.coupon, influencer.email);
-              // } else {
-              //     sendEmail(reg.name, reg.email, reg.mobile, reg.coupon, null);
-              // }
+          //     // if (influencer) {
+          //     //     sendEmail(reg.name, reg.email, reg.mobile, reg.coupon, influencer.email);
+          //     // } else {
+          //     //     sendEmail(reg.name, reg.email, reg.mobile, reg.coupon, null);
+          //     // }
       
-              // Send an email to the user
-              try {
-                  let userData = UserEmail(reg.name);
-                  let userTo = reg.email; // User's email address
-                  let userSub = "Bootcamp Registration Confirmation";
+          //     // Send an email to the user
+          //     try {
+          //         let userData = UserEmail(reg.name);
+          //         let userTo = reg.email; // User's email address
+          //         let userSub = "Bootcamp Registration Confirmation";
       
-                  let userMail = {
-                      to: userTo,
-                      subject: userSub,
-                      content: userData,
-                  };
+          //         let userMail = {
+          //             to: userTo,
+          //             subject: userSub,
+          //             content: userData,
+          //         };
       
-                  setLoading(true);
+          //         setLoading(true);
       
-                  await axios
-                      .post(`${URL}/api/send/mail`, userMail)
-                      .then((res) => {
-                          setLoading(false);
-                      })
-                      .catch((err) => {
-                          setLoading(false);
-                          console.error("Error sending user email:", err.message);
-                      });
-              } catch (err) {
-                  console.error("Error sending user email:", err.message);
-              }
+          //         await axios
+          //             .post(`${URL}/api/send/mail`, userMail)
+          //             .then((res) => {
+          //                 setLoading(false);
+          //             })
+          //             .catch((err) => {
+          //                 setLoading(false);
+          //                 console.error("Error sending user email:", err.message);
+          //             });
+          //     } catch (err) {
+          //         console.error("Error sending user email:", err.message);
+          //     }
       
-              // if (influencer) {
-              //     // If a match is found, send an email to the influencer's email address
-              //     console.log(influencer)
-              //     try {
-              //         let influencerData = InfluenceEmail(reg.name, reg.email, reg.mobile, reg.coupon, influencer.email);
-              //         let influencerTo = influencer.email; // Influencer's email address
-              //         let influencerSub = "User Registered with Your Coupon Code";
+          //     // if (influencer) {
+          //     //     // If a match is found, send an email to the influencer's email address
+          //     //     console.log(influencer)
+          //     //     try {
+          //     //         let influencerData = InfluenceEmail(reg.name, reg.email, reg.mobile, reg.coupon, influencer.email);
+          //     //         let influencerTo = influencer.email; // Influencer's email address
+          //     //         let influencerSub = "User Registered with Your Coupon Code";
 
-              //         let influencerMail = {
-              //             to: influencerTo,
-              //             subject: influencerSub,
-              //             content: influencerData,
-              //         };
+          //     //         let influencerMail = {
+          //     //             to: influencerTo,
+          //     //             subject: influencerSub,
+          //     //             content: influencerData,
+          //     //         };
       
-              //         setLoading(true);
+          //     //         setLoading(true);
       
-              //         await axios
-              //             .post(`${URL}/api/send/mail`, influencerMail)
-              //             .then((res) => {
-              //                 setLoading(false);
-              //                 // You can add a toast or message here for the influencer
+          //     //         await axios
+          //     //             .post(`${URL}/api/send/mail`, influencerMail)
+          //     //             .then((res) => {
+          //     //                 setLoading(false);
+          //     //                 // You can add a toast or message here for the influencer
                               
-              //             })
-              //             .catch((err) => {
-              //                 setLoading(false);
-              //                 console.error("Error sending influencer email:", err.message);
-              //                 toast.error("Failed to send influencer email. Please try again.");
-              //             });
-              //     } catch (err) {
-              //         console.error("Error sending influencer email:", err.message);
-              //     }
-              // }
-              // if(influencer){
-              //   setLoading(false);
-              //   toast.info("Yout Got 25% Discount To Complete registration. Pay Rs.149 to secure your spot on the Workshop.");
-              //   window.location.href = 'https://pages.razorpay.com/pl_Mq1jGcjBBFioeL/view';
-              // }
-              // else if(reg.coupon==="AMC" || reg.coupon==="ACSE"||reg.coupon==="kavitha"||reg.coupon=="UVCE"|| reg.coupon ==="GCEM"|| reg.coupon ==="DSCE"|| reg.coupon ==="BIET"||reg.coupon ==="BMSIT" || reg.coupon === "BPDS01" ||reg.coupon === "AIT" || reg.coupon === "SP01" || reg.coupon === "JHC" || reg.coupon === "MBCAC"|| reg.coupon === "BASKARANTONY123" || reg.coupon === "JNNC"){
-              //   setLoading(false);
-              //   setShowModal(true)
-              //   toast.info("thanks for registering for Python webianar and You got free registartion ,");
-              //   setReg({
-              //     name: "",
-              //     email: "",
-              //     mobile: "",
-              //     coupon: ""
-              //   })
-              // }
-              // else{
-              //   setLoading(false);
-              //   toast.info("To Complete registration. Pay Rs.199 to secure your spot on the Workshop.");
-              //   window.location.href = 'https://pages.razorpay.com/be-practial-webinar';
-              // }
-          }
+          //     //             })
+          //     //             .catch((err) => {
+          //     //                 setLoading(false);
+          //     //                 console.error("Error sending influencer email:", err.message);
+          //     //                 toast.error("Failed to send influencer email. Please try again.");
+          //     //             });
+          //     //     } catch (err) {
+          //     //         console.error("Error sending influencer email:", err.message);
+          //     //     }
+          //     // }
+          //     // if(influencer){
+          //     //   setLoading(false);
+          //     //   toast.info("Yout Got 25% Discount To Complete registration. Pay Rs.149 to secure your spot on the Workshop.");
+          //     //   window.location.href = 'https://pages.razorpay.com/pl_Mq1jGcjBBFioeL/view';
+          //     // }
+          //     // else if(reg.coupon==="AMC" || reg.coupon==="ACSE"||reg.coupon==="kavitha"||reg.coupon=="UVCE"|| reg.coupon ==="GCEM"|| reg.coupon ==="DSCE"|| reg.coupon ==="BIET"||reg.coupon ==="BMSIT" || reg.coupon === "BPDS01" ||reg.coupon === "AIT" || reg.coupon === "SP01" || reg.coupon === "JHC" || reg.coupon === "MBCAC"|| reg.coupon === "BASKARANTONY123" || reg.coupon === "JNNC"){
+          //     //   setLoading(false);
+          //     //   setShowModal(true)
+          //     //   toast.info("thanks for registering for Python webianar and You got free registartion ,");
+          //     //   setReg({
+          //     //     name: "",
+          //     //     email: "",
+          //     //     mobile: "",
+          //     //     coupon: ""
+          //     //   })
+          //     // }
+          //     // else{
+          //     //   setLoading(false);
+          //     //   toast.info("To Complete registration. Pay Rs.199 to secure your spot on the Workshop.");
+          //     //   window.location.href = 'https://pages.razorpay.com/be-practial-webinar';
+          //     // }
+          // }
          
       };
   return (
@@ -332,7 +336,7 @@ function Registration() {
        <div className="registration-form-container text-center rounded-3">
                 <div className="card register-form rounded-3">
                     <div className="card-header text-start">
-                    <h1 className="p-large-xl text-white">Enroll Our <br />Python  Bootcamp</h1>
+                    <h1 className="p-large-xl text-white">Enroll Our <br />AWS Bootcamp</h1>
             <div className="d-flex align-items-end">
             <h1 className="heading-text text-main mx-2">Free</h1>
             <h1 className="heading-subtitle text-white"><del className='text-danger'>&#8377;1000</del></h1>
@@ -360,28 +364,16 @@ function Registration() {
                                  </div>
                             </div>
                             <div className="form-group mt-2">
-                                <input type="text" className="form-control p-3" name='coupon' placeholder='Coupon Code (optional)'  value={reg.coupon} onChange={readValue} />
+                              <div className="row">
+                                <div className="col-12 col-md-7">
+                                <input type="text" className="form-control p-3" name='college' placeholder='College name'   value={reg.college} onChange={readValue}  />
+                                </div>
+                                <div className="col-12 col-md-5">
+                                <input type="text" className="form-control p-3" name='year' placeholder='year of Passing'  value={reg.year} onChange={readValue} />
+                                </div>
+                              </div>
                             </div>
-                              {
-                                isCoupon?(
-                                   <div class="alert alert-success mt-4" role="alert">
-                                    Hurry! 50% Coupon Applied. <b><del>&#8377; 199/- </del>&#8377; 99/- </b> Only <b>Pay Now <i class="bi bi-arrow-right"></i></b>
-                                  </div>
-                                 
-                                ):(
-                                 null
-                                )
-                              }
-                               {
-                                freeCoupon ? (
-                                   <div class="alert alert-success mt-4" role="alert">
-                                     Congratulations! You are eligible for free registration to our Python  Bootcamp. <i class="bi bi-arrow-right"></i>
-                                  </div>
-                                 
-                                ):(
-                                 null
-                                )
-                              }
+                              
                             <div className="form-group mt-5">
                                <button type="submit" className='main-btn text-white  w-100 bg-dark '>Register <i class="bi bi-hand-index-thumb"></i></button>
                             </div>

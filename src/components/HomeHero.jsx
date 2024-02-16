@@ -6,17 +6,19 @@ import Works from './Works'
 
 function HomeHero() {
   return (
-    <section className='hero text-center p-lg-4 p-2' id='home'>
-      <div className="blur1 d-none d-sm-none d-md-block"></div>
-      <div className="blur2 d-none d-sm-none d-md-block"></div>
+    <section className='hero text-center p-0 container-fluid' id='home'>
+     <div className="bg">
+     {/* <div className="blur1 d-none d-sm-none d-md-block"></div>
+      <div className="blur2 d-none d-sm-none d-md-block"></div> */}
     
-          <p className='p-2 text-black bg-white rounded-5 mb-3 mt-3'>Python  Bootcamp</p>
-        <h1 className="heading-text  text-white mt-3 text-900 py-2">Secret Blueprint for  High-Paid <span className="text-main">Python career</span></h1>
-        <div className="p-large text-white">Live Q&A Session With Experts, <br />Get Easiest Part To Learn complete Python,  Get E-Certificate and Study Meterial</div>
+          <p className='p-2 text-black bg-white rounded-5 mb-3 mt-3 d-inline-block'>AWS  Bootcamp</p>
+        <h1 className="heading-text  text-white mt-3 text-900 py-2">Secret Blueprint for  High-Paid <span className="text-main">AWS career</span></h1>
+        <div className="p-large text-white">Live Q&A Session With Experts, <br />Get Easiest Part To Learn complete AWS,  Get E-Certificate and Study Meterial</div>
         <div className="date-container mt-5">
-            <button className="div-block-876"> <i class="bi bi-calendar2-event"></i>7th - 8th Feb 2024 </button>
+            <button className="div-block-876"> <i class="bi bi-calendar2-event"></i>20th - 21st Feb 2024 </button>
             <button className="div-block-876"> <i class="bi bi-alarm"></i> 7:30PM to 9:30PM</button>
         </div>
+     </div>
         <div className='container mt-5 text-start'>
         <div className="row align-items-center justify-content-center">
      

@@ -5,7 +5,7 @@ const highlights = [
     {
         image:"https://cdn-icons-png.flaticon.com/128/10789/10789560.png",
         title:"Actionable Knowledge",
-        content:"Acquire valuable, hands-on insights to launch your  career in Python  effectively"
+        content:"Acquire valuable, hands-on insights to launch your  career in AWS  effectively"
     },
     {
         image:"https://cdn-icons-png.flaticon.com/128/7257/7257539.png",
@@ -15,7 +15,7 @@ const highlights = [
     {
         image:"https://cdn-icons-png.flaticon.com/128/9464/9464456.png",
         title:"Industry Demand",
-        content:"Learn from experts about the current job market's robust demand for careers in Python "
+        content:"Learn from experts about the current job market's robust demand for careers in AWS "
     },
     {
         image:"https://cdn-icons-png.flaticon.com/128/11060/11060995.png",
@@ -37,7 +37,7 @@ const highlights = [
 function Highlights() {
   return (
     <section className='highlights text-center mt-5' id='highlight'>
-        <h1 className="heading text-white mb-5">Python   <br /> Bootcamp <span className='text-main'>Highlights</span></h1>
+        <h1 className="heading text-white mb-5">AWS   <br /> Bootcamp <span className='text-main'>Highlights</span></h1>
         <div className="container mt-3">
             <div className="row">
             {

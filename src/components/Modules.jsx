@@ -5,9 +5,9 @@ import '../styles/Homehero.css'
 const moduledata = [
     {
         tag:"Day1",
-        heading:"Python Bootcamp Day1",
-        description:"You will learn some fundamentals required for solving coding challenges.Learn how to use libraries. Solve questions by importing required libraries and its packages. Lambda functions are powerful tools in Python, but they come with their own strengths and weaknesses. ",
-        topicCovered:["Lambda Functions", "Understanding Packages and libraries ", "Introduction to Python fundamentals"]
+        heading:"AWS Bootcamp Day1",
+        description:"You will learn some fundamentals required for solving coding challenges.Learn how to use libraries. Solve questions by importing required libraries and its packages. Lambda functions are powerful tools in AWS, but they come with their own strengths and weaknesses. ",
+        topicCovered:["Lambda Functions", "Understanding Packages and libraries ", "Introduction to AWS fundamentals"]
     },
     {
         tag:"Day2",
@@ -21,7 +21,7 @@ function Modules() {
    <div className='module-container'>
     <h1 className="fs-1 text-white text-center mt-5">What you can expect in <span className="text-main">2 days</span>?</h1>
     <p className="text-center text-white px-4 lead">
-    The program is organized into two module using Python. First module will make to work on basic requirement, how to analyze your code in term of time complexity and how Lambda functions helps to solve coding problems. Second module will let you to understand underlying concepts of Tkinter, functions. Each module builds on the next, and is designed to enter the job market as a developer.
+    The program is organized into two module using AWS. First module will make to work on basic requirement, how to analyze your code in term of time complexity and how Lambda functions helps to solve coding problems. Second module will let you to understand underlying concepts of Tkinter, functions. Each module builds on the next, and is designed to enter the job market as a developer.
     </p>
   <div className="conatiner p-3">
     <div className="row align-items-center">

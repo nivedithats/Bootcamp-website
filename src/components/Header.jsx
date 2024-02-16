@@ -5,18 +5,18 @@ function Header() {
   return (
     <header className='bg-dark'>
       <marquee behavior="scroll" direction="right" scrollamount="10" className="m-0 bg-main">
-        <div className="free-container d-flex gap-5 fs-5 m-0 fw-bold  text-dark">
-          <span>Free Python  Bootcamp</span>
-          <span>Free Python  Bootcamp</span>
-          <span>Free Python  Bootcamp</span>
-          <span>Free Python  Bootcamp</span>
-          <span>Free Python  Bootcamp</span>
-          <span>Free Python  Bootcamp</span>
-          <span>Free Python  Bootcamp</span>
-          <span>Free Python  Bootcamp</span>
-          <span>Free Python  Bootcamp</span>
-          <span>Free Python  Bootcamp</span>
-          <span>Free Python  Bootcamp</span>
+        <div className="free-container d-flex gap-5 fs-5 m-0 fw-bold  text-white">
+          <span>Free AWS  Bootcamp</span>
+          <span>Free AWS  Bootcamp</span>
+          <span>Free AWS  Bootcamp</span>
+          <span>Free AWS  Bootcamp</span>
+          <span>Free AWS  Bootcamp</span>
+          <span>Free AWS  Bootcamp</span>
+          <span>Free AWS  Bootcamp</span>
+          <span>Free AWS  Bootcamp</span>
+          <span>Free AWS  Bootcamp</span>
+          <span>Free AWS  Bootcamp</span>
+          <span>Free AWS  Bootcamp</span>
          
         </div>
       </marquee>

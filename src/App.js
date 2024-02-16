@@ -6,27 +6,32 @@ import Header from './components/Header';
 import { ToastContainer } from 'react-toastify';
 import FreeRegistration from './components/FreeRegistration';
 import Scroll from './components/Scroll';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import { useEffect } from 'react';
-ReactGA.initialize('G-5Y76GH1KTX');
+ReactGA.initialize('G-QJMJLM7R1R');
 
 function App() {
-  const location = useLocation();
+  ReactGA.event({
+    category: 'User',
+    action: 'Clicked Button',
+    label: 'Homepage',
+  });
+
   useEffect(() => {
     // Extract UTM parameters from the URL
-    const urlParams = new URLSearchParams(location.search);
+    const urlParams = new URLSearchParams(window.location.search);
     const utmSource = urlParams.get('utm_source');
     const utmMedium = urlParams.get('utm_medium');
     const utmCampaign = urlParams.get('utm_campaign');
 
-    // Track the user's source in Google Analytics
-    ReactGA.event({
-      category: 'User Interaction',
-      action: 'Visited Website',
-      label: `Source: ${utmSource}, Medium: ${utmMedium}, Campaign: ${utmCampaign}`,
+    // Track pageview with UTM parameters
+    ReactGA.pageview(window.location.pathname + window.location.search, [], {
+      utm_source: utmSource,
+      utm_medium: utmMedium,
+      utm_campaign: utmCampaign,
     });
-  }, [location.search]);
+  }, []);
   return (
     <div className="App">
       {/* <Scroll/> */}

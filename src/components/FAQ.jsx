@@ -5,8 +5,8 @@ const allFaqs = {
   "faq": [
     {
         "title": "quest1",
-        "quest": "Why do we need to learn Python?",
-        "ans":  "Learning Python offers a treasure trove of benefits, making it a valuable skill for various individuals and career paths "
+        "quest": "Why do we need to learn AWS?",
+        "ans":  "Learning AWS offers a treasure trove of benefits, making it a valuable skill for various individuals and career paths "
     },
     {
         "title": "quest2",

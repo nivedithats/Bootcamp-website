@@ -11,11 +11,10 @@
 }
 .hero{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  
     min-height: 100vh;
     position: relative;
+    
 }
 .blur1{
     width: 200px;
@@ -76,4 +75,10 @@
     color: #000;
     min-width: 100px;
     text-align: center;
+}
+.bg{
+    background:linear-gradient(45deg, #00000002, #0000007d), url('https://media.licdn.com/dms/image/C4D16AQFbJeEIl5IJVw/profile-displaybackgroundimage-shrink_200_800/0/1573135992196?e=2147483647&v=beta&t=NlBMGoKdZR3ZgDyRXkCTgVbzj-8wrW7Z0FVHMdbway0') no-repeat center;
+    background-size: cover;
+    background-color: #000;
+    min-height: 70vh;
 }

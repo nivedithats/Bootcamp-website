@@ -55,15 +55,15 @@ counter()
             <div className="row align-items-center">
                 <div className="col-lg-8 col-md-6 col-sm-12 align-item-center">
                   <h1 className="text-main fs-1">Bootcamp co-ordinater</h1>
-                  <h1 className="fs-3 text-white">Ganesh</h1>
-                  <span className="fs-4 d-block text-white">Data Science Fullstack trainer</span>
-                  <span className='text-white'>10 Years of experience</span>
+                  <h1 className="fs-3 text-dark">Ganesh</h1>
+                  <span className="fs-4 d-block text-dark">Data Science Fullstack trainer</span>
+                  <span className='text-dark'>10 Years of experience</span>
                   
                   <div className="project">
 
                   </div>
                   <hr />
-                    <h1 className=" text-white mt-5"> About <span className="text-main">Bootcamp</span> </h1>
+                    <h1 className=" text-dark mt-5"> About <span className="text-main">Bootcamp</span> </h1>
                     <h5 className="text-secondary">
                     
                     </h5>
@@ -73,16 +73,16 @@ counter()
                         <div className="card bg-main">
                           <div className="card-body">
                              <h4 className='text-700'> <i className="bi bi-geo-alt text-main-1"></i> Where</h4>
-                             <h6 className="text-white"> Be Practical Tech Solutions</h6>
-                             <h5 className="text-white"> <b>Mode: </b> Online</h5>
+                             <h6 className="text-dark"> Be Practical Tech Solutions</h6>
+                             <h5 className="text-dark"> <b>Mode: </b> Online</h5>
                           </div>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 mt-2 mb-2">
-                        <div className="card bg-main h-100 text-white">
+                        <div className="card bg-main h-100 text-dark">
                           <div className="card-body">
                               <h4 className='text-700'> <i className="bi bi-calendar-check"></i> When</h4>
-                              <h6 className="text-white">18th - 19th - 20th Jan 2024</h6>
+                              <h6 className="text-dark">18th - 19th - 20th Jan 2024</h6>
                           </div>
                         </div>
                     </div>
