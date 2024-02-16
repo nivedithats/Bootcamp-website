@@ -82,3 +82,9 @@
     background-color: #000;
     min-height: 70vh;
 }
+@media (max-width:768px){
+    .bg{
+        background-position: bottom right;
+        background-size: contain;
+    }
+}

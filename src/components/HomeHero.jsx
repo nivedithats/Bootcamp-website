@@ -7,7 +7,7 @@ import Works from './Works'
 function HomeHero() {
   return (
     <section className='hero text-center p-0 container-fluid' id='home'>
-     <div className="bg">
+     <div className="bg p-lg-4 p-3">
      {/* <div className="blur1 d-none d-sm-none d-md-block"></div>
       <div className="blur2 d-none d-sm-none d-md-block"></div> */}
     
