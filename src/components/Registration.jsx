@@ -42,7 +42,7 @@ const LoadingModal = () => {
               <p className='fs-5 text-white'>
               Confirm Here For free MERN Fullstack Development Bootcamp
               </p>
-              <Link to="https://chat.whatsapp.com/CmR48GWC2N4AnSjmr57mzD" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
+              <Link to="https://chat.whatsapp.com/LrX7M5Ro9al8DOKdf89zWN" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
                </div>
             </div>
           </div>
