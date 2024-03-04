@@ -5,23 +5,23 @@ const allFaqs = {
   "faq": [
     {
         "title": "quest1",
-        "quest": "Why do we need to learn AWS?",
-        "ans":  "Learning AWS offers a treasure trove of benefits, making it a valuable skill for various individuals and career paths "
+        "quest": "How do I know whether this program is right for me? ",
+        "ans":  "After reviewing the information on the program landing page, we recommend you	 submit the short form above to gain access to the program. If you still have questions on whether this program is a good fit for you, please email admin@be-practical.com, and a dedicated program advisor will follow up with you very shortly. "
     },
     {
         "title": "quest2",
-        "quest": "Are there any prerequisites for this program?",
-        "ans":  "No, we will explain everything required from scratch level.1.	Good to have basics of computer knowledge 2.	Good to have knowledge on some IDE’s "
+        "quest": "Are there any prerequisites for this program? ",
+        "ans":  "Some programs do have prerequisites, While there are no strict prerequisites, participants should have basic knowledge of cloud computing concepts and familiarity with AWS services.  "
     },
     {
         "title": "quest3",
-        "quest": "Why ",
-        "ans":  "This is a graded program. You must complete a combination of individual assignments, online test, and a final project. Each component carries a certain number of points, and a cumulative score of 60% percent is required to pass and obtain your professional certificate.	"
+        "quest": "What are the requirements to earn a certificate?  ",
+        "ans":  "This is a graded program. You must complete a combination of individual assignments, online test, and a final project. Each component carries a certain number of points, and a cumulative score of 60% percent is required to pass and obtain your professional certificate. "
     },
     {
         "title": "quest4",
         "quest": "Can I download the program videos?",
-        "ans":  "You can download video transcripts, assignment templates, readings, at the end of the workshop. However, the video lectures are only available for streaming and require an internet connection."
+        "ans":  "You can download video transcripts, assignment templates, readings, at the end of the workshop. However, the video lectures are only available for streaming and require an internet connection"
     },
     {
         "title": "quest5",

@@ -55,6 +55,7 @@ const LoadingModal = () => {
 function Registration() {
     const [influencers, setInfluencers] = useState([]);
     const [isCoupon, setIsCoupon] = useState(false)
+    const [loading, setLoading] = useState(false)
 
     const [showModal, setShowModal] = useState(false);
     const [freeCoupon, setFreeCoupon] = useState(false)
@@ -87,7 +88,6 @@ function Registration() {
       const [nameErr, setNameErr] = useState("");
       const [emailErr, setEmailErr] = useState("");
       const [mobileErr, setMobileErr] = useState("");
-      const [loading, setLoading] = useState(false);
     
       const readValue = (e) => {
         const { name, value } = e.target;
@@ -206,6 +206,7 @@ function Registration() {
       // };
     
       const submitHandler = async (e) => {
+        setLoading(true)
           e.preventDefault();
           // Perform final validation here
           // if (influencers.length === 0) {
@@ -215,6 +216,8 @@ function Registration() {
           try {
               axios.post('https://stormy-flannel-nightgown-ox.cyclic.app/api/aws/register', reg)
               .then(response => {
+                setLoading(false)
+                
                 // Handle the response data here
                 toast.success("Thank you for registering to AWS Bootcamp")
                 setShowModal(true)
@@ -222,6 +225,7 @@ function Registration() {
               })
               .catch(error => {
                 // Handle any errors here
+                setLoading(false)
                 toast.error(error)
                 console.error(error);
               });
@@ -366,10 +370,10 @@ function Registration() {
                             <div className="form-group mt-2">
                               <div className="row">
                                 <div className="col-12 col-md-7">
-                                <input type="text" className="form-control p-3" name='college' placeholder='College name'   value={reg.college} onChange={readValue}  />
+                                <input type="text" className="form-control p-3" name='college' placeholder='College name'   value={reg.college} onChange={readValue}  required />
                                 </div>
                                 <div className="col-12 col-md-5">
-                                <input type="text" className="form-control p-3" name='year' placeholder='year of Passing'  value={reg.year} onChange={readValue} />
+                                <input type="number" className="form-control p-3" name='year' placeholder='year of Passing'  value={reg.year} onChange={readValue} required />
                                 </div>
                               </div>
                             </div>
